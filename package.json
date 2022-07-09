@@ -1,0 +1,24 @@
+{
+  "name": "huddle_landing_page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahilvora225/huddle-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahilvora225/huddle-landing-page/issues"
+  },
+  "homepage": "https://github.com/sahilvora225/huddle-landing-page#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
