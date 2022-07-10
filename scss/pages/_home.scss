@@ -11,11 +11,51 @@ html {
 
 .header {
   .navbar {
-    padding: 5rem;
+    padding: 5rem 8rem;
     @include flex(space-between);
 
     &__brand {
       width: 18rem;
+    }
+  }
+}
+
+.intro {
+  padding: 7.5rem 0px;
+  text-align: center;
+
+  p {
+    width: 35%;
+    margin: 0px auto 3rem auto;    
+  }
+
+  &__image {
+    display: block;
+    margin: 8rem auto 0px auto;
+  }
+}
+
+.stats {
+  margin: 5rem auto 10rem auto;
+  padding: 0rem 5rem;
+  @include flex(space-around, center, row);
+
+  &-info {
+    text-align: start;
+    
+    &__icon {
+      height: 2.5rem;
+    }
+
+    &__data {
+      font-size: 7rem;
+      font-weight: 700;
+    }
+
+    &__description {
+      color: #777777;
+      font-size: 2rem;
+      text-align: center;
     }
   }
 }

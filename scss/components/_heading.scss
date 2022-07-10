@@ -1,0 +1,13 @@
+.heading {
+  font-family: $poppins;
+  font-weight: 700;
+  margin-bottom: 1rem;
+
+  &--primary {
+    font-size: 5rem;
+  }
+
+  &--secondary {
+    font-size: 3rem;
+  }
+}

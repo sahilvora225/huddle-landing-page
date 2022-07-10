@@ -10,7 +10,8 @@
   border-radius: 0.5rem;
   box-shadow: 0rem 0.5rem 1rem rgba(0, 0, 0, 0.2); }
   .button-primary--round {
-    border-radius: 3.5rem; }
+    border-radius: 3.5rem;
+    padding: 2rem 5rem; }
   .button-primary:hover, .button-primary:focus {
     background-color: #ff9edb;
     cursor: pointer; }
@@ -29,6 +30,18 @@
     color: #ff9edb;
     cursor: pointer; }
 
+.heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin-bottom: 1rem; }
+  .heading--primary {
+    font-size: 5rem; }
+  .heading--secondary {
+    font-size: 3rem; }
+
+.paragraph {
+  font-size: 1.6rem; }
+
 .row {
   max-width: 1440px;
   margin: 0px auto; }
@@ -43,10 +56,39 @@ html {
   font-family: "Open Sans", sans-serif; }
 
 .header .navbar {
-  padding: 5rem;
+  padding: 5rem 8rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center; }
   .header .navbar__brand {
     width: 18rem; }
+
+.intro {
+  padding: 7.5rem 0px;
+  text-align: center; }
+  .intro p {
+    width: 35%;
+    margin: 0px auto 3rem auto; }
+  .intro__image {
+    display: block;
+    margin: 8rem auto 0px auto; }
+
+.stats {
+  margin: 5rem auto 10rem auto;
+  padding: 0rem 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+  .stats-info {
+    text-align: start; }
+    .stats-info__icon {
+      height: 2.5rem; }
+    .stats-info__data {
+      font-size: 7rem;
+      font-weight: 700; }
+    .stats-info__description {
+      color: #777777;
+      font-size: 2rem;
+      text-align: center; }
