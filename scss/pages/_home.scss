@@ -8,3 +8,14 @@ html {
   font-size: 62.5%;
   font-family: $open-sans;
 }
+
+.header {
+  .navbar {
+    padding: 5rem;
+    @include flex(space-between);
+
+    &__brand {
+      width: 18rem;
+    }
+  }
+}

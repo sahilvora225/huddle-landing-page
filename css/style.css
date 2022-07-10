@@ -16,8 +16,8 @@
     cursor: pointer; }
 
 .button-secondary {
-  padding: 0.7rem 2rem;
-  font-size: 1.3rem;
+  padding: 0.8rem 2rem;
+  font-size: 1.4rem;
   font-weight: 400;
   color: #ff52bf;
   border: 1px solid #ff52bf;
@@ -41,3 +41,12 @@
 html {
   font-size: 62.5%;
   font-family: "Open Sans", sans-serif; }
+
+.header .navbar {
+  padding: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+  .header .navbar__brand {
+    width: 18rem; }
