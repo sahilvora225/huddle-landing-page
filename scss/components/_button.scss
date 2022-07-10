@@ -1,0 +1,40 @@
+.button {
+  &-primary {
+    background-color: $primary-pink;
+    font-family: $open-sans;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: $white;
+    border: none;
+    outline: none;
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+    box-shadow: 0rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+
+    &--round {
+      border-radius: 3.5rem;
+    }
+
+    &:hover, &:focus {
+      background-color: lighten($primary-pink, 15%);
+      cursor: pointer;
+    }
+  }
+
+  &-secondary {
+    padding: 0.7rem 2rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: $primary-pink;
+    border: 1px solid $primary-pink;
+    background-color: white;
+    border-radius: 3.5rem;
+    outline: none;
+
+    &:hover, &:focus {
+      border-color: lighten($primary-pink, 15%);
+      color: lighten($primary-pink, 15%);
+      cursor: pointer;
+    }
+  }
+}

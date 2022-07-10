@@ -1,0 +1,43 @@
+.button-primary {
+  background-color: #ff52bf;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  padding: 1rem 3rem;
+  border-radius: 0.5rem;
+  box-shadow: 0rem 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+  .button-primary--round {
+    border-radius: 3.5rem; }
+  .button-primary:hover, .button-primary:focus {
+    background-color: #ff9edb;
+    cursor: pointer; }
+
+.button-secondary {
+  padding: 0.7rem 2rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #ff52bf;
+  border: 1px solid #ff52bf;
+  background-color: white;
+  border-radius: 3.5rem;
+  outline: none; }
+  .button-secondary:hover, .button-secondary:focus {
+    border-color: #ff9edb;
+    color: #ff9edb;
+    cursor: pointer; }
+
+.row {
+  max-width: 1440px;
+  margin: 0px auto; }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  font-family: "Open Sans", sans-serif; }
