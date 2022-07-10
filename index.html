@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap" rel="stylesheet">
   
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/brands.min.css" integrity="sha512-sVSECYdnRMezwuq5uAjKQJEcu2wybeAPjU4VJQ9pCRcCY4pIpIw4YMHIOQ0CypfwHRvdSPbH++dA3O4Hihm/LQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -46,40 +46,85 @@
         <div class="stats-info__description">Messages Sent</div>
       </div>
     </section>
+
+    <section class="details details-1">
+      <img src="./images/bg-section-top-desktop-1.svg" alt="Curve design" class="design-top">
+      <img src="./images/bg-section-bottom-desktop-1.svg" alt="Curve design" class="design-bottom">
+      <div class="info-arena info-arena--left row">
+        <div class="info-arena__info">
+          <h3 class="heading heading--secondary">Grow Together</h3>
+          <p class="paragraph">
+            Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.
+          </p>
+        </div>
+        <img src="./images/illustration-grow-together.svg" alt="Image" class="info-arena__image">
+      </div>
+    </section>
+
+    <section class="details details-2">
+      <div class="info-arena row">
+        <div class="info-arena__info">
+          <h3 class="heading heading--secondary">Flowing Conversations</h3>
+          <p class="paragraph">
+            You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.
+          </p>
+        </div>
+        <img src="./images/illustration-flowing-conversation.svg" alt="Image" class="info-arena__image">
+      </div>
+    </section>
+
+    <section class="details details-3">
+      <img src="./images/bg-section-top-desktop-2.svg" alt="Curve design" class="design-top">
+      <img src="./images/bg-section-bottom-desktop-2.svg" alt="Curve design" class="design-bottom">
+      <div class="info-arena info-arena--left row">
+        <div class="info-arena__info">
+          <h3 class="heading heading--secondary">Your Users</h3>
+          <p class="paragraph">
+            It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.
+          </p>
+        </div>
+        <img src="./images/illustration-your-users.svg" alt="Image" class="info-arena__image">
+      </div>
+    </section>
+
+    <section class="cta">
+      <h2 class="heading heading--primary">Ready To Build Your Community?</h2>
+      <button class="button-primary button-primary--round">Get Started For Free</button>
+    </section>
   </main>
 
-  Grow Together
-  Generate meaningful discussions with your audience and build a strong, loyal community. 
-  Think of the insightful conversations you miss out on with a feedback form. 
-
-  Flowing Conversations
-  You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
-  just-in-time loading for a more natural flow.
-
-  Your Users
-  It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
-  once signed in to your app, your users can start chatting immediately.
-
-  Ready To Build Your Community?
-  Get Started For Free
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
-  vestibulum a, ultrices quis sem.
-  
-  Phone: +1-543-123-4567
-  example@huddle.com
-
-  Newsletter
-  To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
-  send you spam or pass on your email address
-
-  Subscribe
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="https://sahilvora225.github.io/">Sahil Vora</a>.
-    </p>
+  <footer class="footer">
+    <div class="footer__curve-image"></div>
+    <div class="info row">
+      <div class="info__company">
+        <img src="./images/logo_white.svg" alt="Logo" class="info__company__logo">
+        <div class="info__company__address">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.</div>
+        <div class="info__company__contact">
+          <img src="./images/icon-phone.svg" alt="Phone" class="info__company__contact__icon">
+          <div class="info__company__contact__detail">Phone: +1-543-123-4567</div>
+        </div>
+        <div class="info__company__contact">
+          <img src="./images/icon-email.svg" alt="Phone" class="info__company__contact__icon">
+          <div class="info__company__contact__detail">example@huddle.com</div>
+        </div>
+        <div class="info__company__social">
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter-square"></i>
+        </div>
+      </div>
+      <div class="info__newsletter">
+        <div class="info__newsletter__title">Newsletter</div>
+        <div class="info__newsletter__description">To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never send you spam or pass on your email address</div>
+        <div class="info__newsletter__subscribe">
+          <input type="email" name="email" id="email" class="info__newsletter__subscribe__input" placeholder="Email">
+          <button class="button-primary">Subscribe</button>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://sahilvora225.github.io/">Sahil Vora</a>.
+    </div>
   </footer>
 </body>
 </html>
