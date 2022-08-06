@@ -115,11 +115,14 @@
       </div>
       <div class="info__newsletter">
         <div class="info__newsletter__title">Newsletter</div>
-        <div class="info__newsletter__description">To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never send you spam or pass on your email address</div>
-        <div class="info__newsletter__subscribe">
-          <input type="email" name="email" id="email" class="info__newsletter__subscribe__input" placeholder="Email">
+        <div class="info__newsletter__description">To recieve tips on how to grow your community, sign up to our weekly newsletter. We'll never send you spam or pass on your email address</div>
+        <form class="info__newsletter__subscribe">
+          <div class="email-input">
+            <input type="email" name="email" id="email" class="email-input__input" placeholder="Email">
+            <label for="email" class="email-input__error">Check your email please</label>
+          </div>
           <button class="button-primary">Subscribe</button>
-        </div>
+        </form>
       </div>
     </div>
     <div class="attribution">

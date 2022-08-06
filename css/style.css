@@ -185,6 +185,15 @@ html {
           font-size: 3rem; }
           .footer .info__company__social i:not(last-child) {
             margin-right: 2rem; }
+        .footer .info__company__social .fa-facebook-square:hover {
+          color: #4267B2;
+          cursor: pointer; }
+        .footer .info__company__social .fa-instagram:hover {
+          color: #bc2a8d;
+          cursor: pointer; }
+        .footer .info__company__social .fa-twitter-square:hover {
+          color: #1DA1F2;
+          cursor: pointer; }
     .footer .info__newsletter {
       width: 40%; }
       .footer .info__newsletter__title {
@@ -196,14 +205,34 @@ html {
         font-size: 1.5rem;
         width: 70%;
         margin-bottom: 4rem; }
-      .footer .info__newsletter__subscribe__input {
-        height: 4rem;
-        width: 25rem;
-        margin-right: 3rem;
-        outline: none;
-        padding: 0.5rem;
-        font-size: 1.5rem;
-        border-radius: 5px; }
+      .footer .info__newsletter__subscribe {
+        display: flex;
+        justify-content: start; }
+      .footer .info__newsletter .email-input {
+        position: relative; }
+        .footer .info__newsletter .email-input__input {
+          height: 4rem;
+          width: 25rem;
+          margin-right: 3rem;
+          outline: none;
+          padding: 0.5rem;
+          font-size: 1.5rem;
+          border-radius: 5px;
+          cursor: pointer;
+          position: relative; }
+          .footer .info__newsletter .email-input__input:invalid {
+            border: 1px solid #ff4242; }
+        .footer .info__newsletter .email-input__error {
+          color: #ff4242;
+          font-size: 1.2rem;
+          position: absolute;
+          bottom: 1rem;
+          left: 0.4rem;
+          opacity: 0;
+          transition: all 0.3s ease-in-out; }
+        .footer .info__newsletter .email-input .email-input__input:invalid + .email-input__error {
+          bottom: -2.4rem;
+          opacity: 1; }
   .footer .attribution {
     width: 100%;
     text-align: center;

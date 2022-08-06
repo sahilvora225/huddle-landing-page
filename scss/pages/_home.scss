@@ -184,6 +184,21 @@ html {
             margin-right: 2rem;
           }
         }
+
+        .fa-facebook-square:hover {
+          color: #4267B2;
+          cursor: pointer;
+        }
+
+        .fa-instagram:hover {
+          color: #bc2a8d;
+          cursor: pointer;
+        }
+
+        .fa-twitter-square:hover {
+          color: #1DA1F2;
+          cursor: pointer;
+        }
       }
     }
 
@@ -204,6 +219,13 @@ html {
       }
 
       &__subscribe {
+        display: flex;
+        justify-content: start;
+      }
+
+      .email-input {
+        position: relative;
+
         &__input {
           height: 4rem;
           width: 25rem;
@@ -212,6 +234,27 @@ html {
           padding: 0.5rem;
           font-size: 1.5rem;
           border-radius: 5px;
+          cursor: pointer;
+          position: relative;
+
+          &:invalid {
+            border: 1px solid $primary-light-red;
+          }
+        }
+
+        &__error {
+          color: $primary-light-red;
+          font-size: 1.2rem;
+          position: absolute;
+          bottom: 1rem;
+          left: 0.4rem;
+          opacity: 0;
+          transition: all 0.3s ease-in-out;
+        }
+
+        .email-input__input:invalid + .email-input__error {
+          bottom: -2.4rem;
+          opacity: 1;
         }
       }
     }
