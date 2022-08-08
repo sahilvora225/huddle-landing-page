@@ -11,3 +11,11 @@
     font-size: 3rem;
   }
 }
+
+@media screen and (max-width: 540px) {
+  .heading {
+    &--primary {
+      font-size: 3rem;
+    }
+  }
+}
